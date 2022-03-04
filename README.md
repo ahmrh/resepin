@@ -1,2 +1,2 @@
 # resepin
-POROS divisi developer
+simple recipe website with CRUD function
