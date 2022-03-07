@@ -1,0 +1,623 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+.accountsettings-block {
+  display: flex;
+  flex-direction: column;
+  background: var(--src) center center/contain no-repeat;
+  background-color: white; }
+
+.accountsettings-block.layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 1024px;
+  flex-shrink: 0; }
+
+.accountsettings-image1 {
+  background: var(--src) center center/contain no-repeat;
+  width: 100%;
+  height: 100%; }
+
+.accountsettings-flex {
+  display: flex;
+  flex-direction: column; }
+
+.accountsettings-flex.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 93.61%;
+  margin: 25px auto; }
+  @media (max-width: 1399px) {
+    .accountsettings-flex.layout {
+      width: 95.13%; } }
+  @media (max-width: 1199px) {
+    .accountsettings-flex.layout {
+      width: 96.3%;
+      margin: 22px auto; } }
+  @media (max-width: 991px) {
+    .accountsettings-flex.layout {
+      width: 97.2%;
+      margin: 19px auto; } }
+  @media (max-width: 767px) {
+    .accountsettings-flex.layout {
+      width: 97.89%;
+      margin: 16px auto; } }
+  @media (max-width: 575px) {
+    .accountsettings-flex.layout {
+      width: 98.41%;
+      margin: 14px auto; } }
+  @media (max-width: 479px) {
+    .accountsettings-flex.layout {
+      width: 98.8%;
+      margin: 13px auto; } }
+  @media (max-width: 383px) {
+    .accountsettings-flex.layout {
+      width: 99.1%;
+      margin: 12px auto; } }
+
+.accountsettings-block1 {
+  display: flex; }
+
+.accountsettings-block1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.accountsettings-hero-title {
+  font: 700 64px/1.2 "Poppins", Helvetica, Arial, serif;
+  color: #5a189a;
+  letter-spacing: 0px; }
+  @media (max-width: 1199px) {
+    .accountsettings-hero-title {
+      font-size: 56px;
+      text-align: left; } }
+  @media (max-width: 991px) {
+    .accountsettings-hero-title {
+      font-size: 48px; } }
+  @media (max-width: 767px) {
+    .accountsettings-hero-title {
+      font-size: 41px; } }
+  @media (max-width: 575px) {
+    .accountsettings-hero-title {
+      font-size: 37px; } }
+  @media (max-width: 479px) {
+    .accountsettings-hero-title {
+      font-size: 34px; } }
+  @media (max-width: 383px) {
+    .accountsettings-hero-title {
+      font-size: 31px; } }
+
+.accountsettings-hero-title.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 0px 19px; }
+  @media (max-width: 1199px) {
+    .accountsettings-hero-title.layout {
+      margin: 0px 0px 17px; } }
+  @media (max-width: 991px) {
+    .accountsettings-hero-title.layout {
+      margin: 0px 0px 14px; } }
+  @media (max-width: 767px) {
+    .accountsettings-hero-title.layout {
+      margin: 0px 0px 12px; } }
+  @media (max-width: 575px) {
+    .accountsettings-hero-title.layout {
+      margin: 0px 0px 11px; } }
+  @media (max-width: 479px) {
+    .accountsettings-hero-title.layout {
+      margin: 0px 0px 10px; } }
+  @media (max-width: 383px) {
+    .accountsettings-hero-title.layout {
+      margin: 0px 0px 9px; } }
+
+.accountsettings-block1-spacer {
+  flex: 0 1 826px; }
+
+.accountsettings-medium-title {
+  display: flex;
+  justify-content: center;
+  font: 24px/1.2 "Poppins", Helvetica, Arial, serif;
+  color: #10002b;
+  text-align: center;
+  letter-spacing: 0px; }
+  @media (max-width: 1199px) {
+    .accountsettings-medium-title {
+      font-size: 22px;
+      text-align: center; } }
+  @media (max-width: 991px) {
+    .accountsettings-medium-title {
+      font-size: 20px; } }
+  @media (max-width: 767px) {
+    .accountsettings-medium-title {
+      font-size: 19px; } }
+  @media (max-width: 575px) {
+    .accountsettings-medium-title {
+      font-size: 18px; } }
+  @media (max-width: 479px) {
+    .accountsettings-medium-title {
+      font-size: 17px; } }
+  @media (max-width: 383px) {
+    .accountsettings-medium-title {
+      font-size: 16px; } }
+
+.accountsettings-medium-title.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 29px 0px 38px; }
+  @media (max-width: 1199px) {
+    .accountsettings-medium-title.layout {
+      margin: 25px 0px 33px; } }
+  @media (max-width: 991px) {
+    .accountsettings-medium-title.layout {
+      margin: 22px 0px 27px; } }
+  @media (max-width: 767px) {
+    .accountsettings-medium-title.layout {
+      margin: 18px 0px 23px; } }
+  @media (max-width: 575px) {
+    .accountsettings-medium-title.layout {
+      margin: 17px 0px 20px; } }
+  @media (max-width: 479px) {
+    .accountsettings-medium-title.layout {
+      margin: 15px 0px 18px; } }
+  @media (max-width: 383px) {
+    .accountsettings-medium-title.layout {
+      margin: 14px 0px 16px; } }
+
+.accountsettings-block1-spacer1 {
+  flex: 0 1 71px; }
+
+.accountsettings-block1-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 71px; }
+
+.accountsettings-icon {
+  background: var(--src) center center/contain no-repeat; }
+
+.accountsettings-icon.layout {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  min-width: 50px;
+  margin: 22px 21px 24px 0px; }
+  @media (max-width: 1199px) {
+    .accountsettings-icon.layout {
+      margin: 19px 18px 21px 0px; } }
+  @media (max-width: 991px) {
+    .accountsettings-icon.layout {
+      margin: 16px 16px 18px 0px; } }
+  @media (max-width: 767px) {
+    .accountsettings-icon.layout {
+      margin: 14px 13px 15px 0px; } }
+  @media (max-width: 575px) {
+    .accountsettings-icon.layout {
+      margin: 13px 12px 14px 0px; } }
+  @media (max-width: 479px) {
+    .accountsettings-icon.layout {
+      margin: 11px 11px 12px 0px; } }
+  @media (max-width: 383px) {
+    .accountsettings-icon.layout {
+      margin: 10px 10px 11px 0px; } }
+
+.accountsettings-cover-block4 {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.0980392);
+  border-radius: 35px 35px 35px 35px; }
+
+.accountsettings-cover-block4.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 59.35%;
+  margin: 158px auto 170px; }
+  @media (max-width: 1199px) {
+    .accountsettings-cover-block4.layout {
+      margin: 126px auto 136px; } }
+  @media (max-width: 991px) {
+    .accountsettings-cover-block4.layout {
+      width: 66.07%;
+      margin: 92px auto 98px; } }
+  @media (max-width: 767px) {
+    .accountsettings-cover-block4.layout {
+      width: 72.2%;
+      margin: 63px auto 66px; } }
+  @media (max-width: 575px) {
+    .accountsettings-cover-block4.layout {
+      width: 77.59%;
+      margin: 48px auto 50px; } }
+  @media (max-width: 479px) {
+    .accountsettings-cover-block4.layout {
+      width: 82.19%;
+      margin: 34px auto; } }
+  @media (max-width: 383px) {
+    .accountsettings-cover-block4.layout {
+      width: 86.02%;
+      margin: 24px auto 23px; } }
+
+.accountsettings-flex1 {
+  display: flex;
+  flex-direction: column; }
+
+.accountsettings-flex1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 58.75%;
+  margin: 48px auto; }
+  @media (max-width: 1199px) {
+    .accountsettings-flex1.layout {
+      margin: 41px auto; } }
+  @media (max-width: 991px) {
+    .accountsettings-flex1.layout {
+      margin: 33px auto; } }
+  @media (max-width: 767px) {
+    .accountsettings-flex1.layout {
+      margin: 27px auto; } }
+  @media (max-width: 575px) {
+    .accountsettings-flex1.layout {
+      width: 65.52%;
+      margin: 24px auto; } }
+  @media (max-width: 479px) {
+    .accountsettings-flex1.layout {
+      width: 71.7%;
+      margin: 20px auto; } }
+  @media (max-width: 383px) {
+    .accountsettings-flex1.layout {
+      width: 77.16%;
+      margin: 18px auto; } }
+
+.accountsettings-hero-title1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 60px/1.2 "Poppins", Helvetica, Arial, serif;
+  color: #240046;
+  text-align: center;
+  letter-spacing: 0px; }
+  @media (max-width: 1199px) {
+    .accountsettings-hero-title1 {
+      font-size: 53px;
+      text-align: center; } }
+  @media (max-width: 991px) {
+    .accountsettings-hero-title1 {
+      font-size: 46px; } }
+  @media (max-width: 767px) {
+    .accountsettings-hero-title1 {
+      font-size: 39px; } }
+  @media (max-width: 575px) {
+    .accountsettings-hero-title1 {
+      font-size: 36px; } }
+  @media (max-width: 479px) {
+    .accountsettings-hero-title1 {
+      font-size: 33px; } }
+  @media (max-width: 383px) {
+    .accountsettings-hero-title1 {
+      font-size: 31px; } }
+
+.accountsettings-hero-title1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 0px 33.5px 0px 31.5px; }
+  @media (max-width: 1199px) {
+    .accountsettings-hero-title1.layout {
+      margin: 0px 29px 0px 28px; } }
+  @media (max-width: 991px) {
+    .accountsettings-hero-title1.layout {
+      margin: 0px 25px 0px 23px; } }
+  @media (max-width: 767px) {
+    .accountsettings-hero-title1.layout {
+      margin: 0px 21px 0px 20px; } }
+  @media (max-width: 575px) {
+    .accountsettings-hero-title1.layout {
+      margin: 0px 19px 0px 18px; } }
+  @media (max-width: 479px) {
+    .accountsettings-hero-title1.layout {
+      margin: 0px 17px 0px 16px; } }
+  @media (max-width: 383px) {
+    .accountsettings-hero-title1.layout {
+      margin: 0px 15px; } }
+
+.accountsettings-cover-block {
+  display: flex;
+  flex-direction: column; }
+
+.accountsettings-cover-block.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 42px 0px 0px 20px; }
+  @media (max-width: 1199px) {
+    .accountsettings-cover-block.layout {
+      margin: 36px 0px 0px 18px; } }
+  @media (max-width: 991px) {
+    .accountsettings-cover-block.layout {
+      margin: 30px 0px 0px 15px; } }
+  @media (max-width: 767px) {
+    .accountsettings-cover-block.layout {
+      margin: 24px 0px 0px 13px; } }
+  @media (max-width: 575px) {
+    .accountsettings-cover-block.layout {
+      margin: 22px 0px 0px 11px; } }
+  @media (max-width: 479px) {
+    .accountsettings-cover-block.layout {
+      margin: 19px 0px 0px 10px; } }
+  @media (max-width: 383px) {
+    .accountsettings-cover-block.layout {
+      margin: 17px 0px 0px 10px; } }
+
+.accountsettings-box2 {
+  background-color: white;
+  border: 3px solid rgba(16, 0, 43, 0.498);
+  border-radius: 8px 8px 8px 8px; }
+
+.accountsettings-box2.layout {
+  position: absolute;
+  top: 0px;
+  height: 60px;
+  left: 0px;
+  right: 0px; }
+
+.accountsettings-medium-title3 {
+  font: 24px/1.2 "Roboto", Helvetica, Arial, serif;
+  color: #10002b;
+  letter-spacing: 0px;
+  opacity: 0.42; }
+  @media (max-width: 1199px) {
+    .accountsettings-medium-title3 {
+      font-size: 22px;
+      text-align: left; } }
+  @media (max-width: 991px) {
+    .accountsettings-medium-title3 {
+      font-size: 20px; } }
+  @media (max-width: 767px) {
+    .accountsettings-medium-title3 {
+      font-size: 19px; } }
+  @media (max-width: 575px) {
+    .accountsettings-medium-title3 {
+      font-size: 18px; } }
+  @media (max-width: 479px) {
+    .accountsettings-medium-title3 {
+      font-size: 17px; } }
+  @media (max-width: 383px) {
+    .accountsettings-medium-title3 {
+      font-size: 16px; } }
+
+.accountsettings-medium-title3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 14px 27px 17px; }
+  @media (max-width: 1199px) {
+    .accountsettings-medium-title3.layout {
+      margin: 12px 24px 15px; } }
+  @media (max-width: 991px) {
+    .accountsettings-medium-title3.layout {
+      margin: 10px 20px 13px; } }
+  @media (max-width: 767px) {
+    .accountsettings-medium-title3.layout {
+      margin: 9px 17px 11px; } }
+  @media (max-width: 575px) {
+    .accountsettings-medium-title3.layout {
+      margin: 8px 15px 10px; } }
+  @media (max-width: 479px) {
+    .accountsettings-medium-title3.layout {
+      margin: 7px 14px 9px; } }
+  @media (max-width: 383px) {
+    .accountsettings-medium-title3.layout {
+      margin: 7px 13px 8px; } }
+
+.accountsettings-cover-block.layout1 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 17px 0px 0px 20px; }
+  @media (max-width: 1199px) {
+    .accountsettings-cover-block.layout1 {
+      margin: 15px 0px 0px 18px; } }
+  @media (max-width: 991px) {
+    .accountsettings-cover-block.layout1 {
+      margin: 13px 0px 0px 15px; } }
+  @media (max-width: 767px) {
+    .accountsettings-cover-block.layout1 {
+      margin: 11px 0px 0px 13px; } }
+  @media (max-width: 575px) {
+    .accountsettings-cover-block.layout1 {
+      margin: 10px 0px 0px 11px; } }
+  @media (max-width: 479px) {
+    .accountsettings-cover-block.layout1 {
+      margin: 9px 0px 0px 10px; } }
+  @media (max-width: 383px) {
+    .accountsettings-cover-block.layout1 {
+      margin: 8px 0px 0px 10px; } }
+
+.accountsettings-cover-block.layout2 {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 17px 0px 0px 20px; }
+  @media (max-width: 1199px) {
+    .accountsettings-cover-block.layout2 {
+      margin: 15px 0px 0px 18px; } }
+  @media (max-width: 991px) {
+    .accountsettings-cover-block.layout2 {
+      margin: 13px 0px 0px 15px; } }
+  @media (max-width: 767px) {
+    .accountsettings-cover-block.layout2 {
+      margin: 11px 0px 0px 13px; } }
+  @media (max-width: 575px) {
+    .accountsettings-cover-block.layout2 {
+      margin: 10px 0px 0px 11px; } }
+  @media (max-width: 479px) {
+    .accountsettings-cover-block.layout2 {
+      margin: 9px 0px 0px 10px; } }
+  @media (max-width: 383px) {
+    .accountsettings-cover-block.layout2 {
+      margin: 8px 0px 0px 10px; } }
+
+.accountsettings-flex2 {
+  display: flex; }
+
+.accountsettings-flex2.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  width: 52.98%;
+  margin: 28px auto 40px; }
+  @media (max-width: 1199px) {
+    .accountsettings-flex2.layout {
+      margin: 25px auto 35px; } }
+  @media (max-width: 991px) {
+    .accountsettings-flex2.layout {
+      margin: 21px auto 29px; } }
+  @media (max-width: 767px) {
+    .accountsettings-flex2.layout {
+      margin: 18px auto 24px; } }
+  @media (max-width: 575px) {
+    .accountsettings-flex2.layout {
+      margin: 16px auto 21px; } }
+  @media (max-width: 479px) {
+    .accountsettings-flex2.layout {
+      margin: 14px auto 19px; } }
+  @media (max-width: 383px) {
+    .accountsettings-flex2.layout {
+      margin: 13px auto 17px; } }
+
+.accountsettings-flex2-item {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  flex: 0 1 134px; }
+
+.accountsettings-cover-block3 {
+  display: flex;
+  flex-direction: column;
+  background-color: #5a189a;
+  border-radius: 15px 15px 15px 15px; }
+
+.accountsettings-cover-block3.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content; }
+
+.accountsettings-medium-title1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 25px/1.2 "Poppins", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+  letter-spacing: 0px;
+  opacity: 0.85; }
+  @media (max-width: 1199px) {
+    .accountsettings-medium-title1 {
+      font-size: 23px;
+      text-align: center; } }
+  @media (max-width: 991px) {
+    .accountsettings-medium-title1 {
+      font-size: 21px; } }
+  @media (max-width: 767px) {
+    .accountsettings-medium-title1 {
+      font-size: 19px; } }
+  @media (max-width: 575px) {
+    .accountsettings-medium-title1 {
+      font-size: 18px; } }
+  @media (max-width: 479px) {
+    .accountsettings-medium-title1 {
+      font-size: 17px; } }
+
+.accountsettings-medium-title1.layout {
+  position: relative;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 14px 15.5px; }
+  @media (max-width: 1199px) {
+    .accountsettings-medium-title1.layout {
+      margin: 12px 14px; } }
+  @media (max-width: 991px) {
+    .accountsettings-medium-title1.layout {
+      margin: 10px 12px; } }
+  @media (max-width: 767px) {
+    .accountsettings-medium-title1.layout {
+      margin: 9px 10px; } }
+  @media (max-width: 575px) {
+    .accountsettings-medium-title1.layout {
+      margin: 8px 9px; } }
+  @media (max-width: 479px) {
+    .accountsettings-medium-title1.layout {
+      margin: 7px 8px; } }
+  @media (max-width: 383px) {
+    .accountsettings-medium-title1.layout {
+      margin: 7px; } }
+
+.accountsettings-flex2-spacer {
+  flex: 0 1 19px; }
+
+.accountsettings-medium-title2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 700 25px/1.2 "Poppins", Helvetica, Arial, serif;
+  color: #999999;
+  text-align: center;
+  letter-spacing: 0px;
+  opacity: 0.85; }
+  @media (max-width: 1199px) {
+    .accountsettings-medium-title2 {
+      font-size: 23px;
+      text-align: center; } }
+  @media (max-width: 991px) {
+    .accountsettings-medium-title2 {
+      font-size: 21px; } }
+  @media (max-width: 767px) {
+    .accountsettings-medium-title2 {
+      font-size: 19px; } }
+  @media (max-width: 575px) {
+    .accountsettings-medium-title2 {
+      font-size: 18px; } }
+  @media (max-width: 479px) {
+    .accountsettings-medium-title2 {
+      font-size: 17px; } }
+
+.accountsettings-medium-title2.layout {
+  position: relative;
+  flex: 0 0 auto;
+  height: -webkit-min-content;
+  height: -moz-min-content;
+  height: min-content;
+  margin: 14px 0px; }
+  @media (max-width: 1199px) {
+    .accountsettings-medium-title2.layout {
+      margin: 12px 0px; } }
+  @media (max-width: 991px) {
+    .accountsettings-medium-title2.layout {
+      margin: 10px 0px; } }
+  @media (max-width: 767px) {
+    .accountsettings-medium-title2.layout {
+      margin: 9px 0px; } }
+  @media (max-width: 575px) {
+    .accountsettings-medium-title2.layout {
+      margin: 8px 0px; } }
+  @media (max-width: 479px) {
+    .accountsettings-medium-title2.layout {
+      margin: 7px 0px; } }
