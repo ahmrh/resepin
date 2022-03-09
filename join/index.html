@@ -1,41 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-        <link rel="stylesheet" href="../assets/css/style.css">
-        <link rel="stylesheet" href="../assets/css/fonts.css">
-        
-        <title>Join</title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script defer src="../assets/script/script.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Menu</title>
+</head>
 <body>
-    <header>
-        <a href="../"><div class="logo">Resepin</div></a>
-        <div class="nav-bar">
+    <header class="">
+        <a href="../" class="top"><div class="logo">Resepin</div></a>
+        <div class="nav-bar light top">
             Sudah punya akun?
+            <div class="nav-item ">
+                <div class="button" id="sign-in">Sign In</div>
+            </div>
+        </div>
+        <div class="nav-bar light passive">
+            Belum punya akun?
             <div class="nav-item">
-                <div class="button"><a href="./join/index.html">Sign In</a></div>
+                <div class="button" id="register">Register</div>
             </div>
         </div>
     </header>
     <div class="content">
-        <div class="tittle-text">Apa yang ingin kamu lakukan?</div>
-        <div class="choice-wrapper">
-            <div class="choice">
-                <img class="explorer" src="../assets/join/explorer.png" alt="">
-                <div class="text">
-                    Saya ingin menelusuri dan membaca resep
-                </div>
-            </div>
-            <a href=""></a>
-            <div class="choice">
-                <img class="writer" src="../assets/join/writer.png" alt="">
-                Saya ingin membagikan resep ke orang lain
-            </div>
-        </div>
+        <img class="main-bg" src="../assets/main/main-bg.png" alt="">
     </div>
+
+    <div id="overlay" class="active"></div>
     
+    <img src="../assets/background.png" class="background">
 </body>
 </html>
+
+<div class="modal active" id="modalRegister">
+    <div class="modal-body">
+        <div class="modal-grid">
+            Telusuri ratusan resep dan bergabung dengan komunitas kuliner bersama Resepin
+
+            <form action="" method="post">
+                <input type="text" id="username" name="username" placeholder="Nama Pengguna">
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                
+                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="submit" value="Buat Akun" href="../explore/">
+            </form>
+
+        </div>
+        <div class="modal-grid">
+            <img class="register-img" src="../assets/main/cook-illust.png">
+
+        </div>
+
+    </div>
+</div>
+
+<div class="modal" id="modalSignIn">
+    <div class="modal-body">
+        <div class="modal-grid">
+            <form action="/action_page.php" method="post">
+                <div class="tittle">Selamat Datang</div>
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                
+                <input type="password" id="password" name="password" placeholder="Password">
+                <input type="submit" value="Sign In">
+                
+                    <div class="text-center small" id="forgot-password"> Lupa Password? Klik <a href="" class="link">disini</a></div>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal" id="modalForgotPassword">
+    <div class="modal-body">
+        <div class="modal-grid">
+            <form action="/action_page.php" method="post">
+                <div class="tittle">Lupa Password</div>
+                <input type="email" id="email" name="email" placeholder="E-mail">
+                
+                <input type="submit" value="Reset">
+            </form>
+
+        </div>
+    </div>
+</div>
